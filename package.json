@@ -1,0 +1,26 @@
+{
+  "name": "clutter-ui-vue",
+  "description": "A UI for Clutter based on Vue",
+  "author": "Jost Schulte",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@holochain/client": "^0.3.2",
+    "@quasar/extras": "^1.12.4",
+    "quasar": "^2.4.12",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.4",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "sass": "^1.32.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
